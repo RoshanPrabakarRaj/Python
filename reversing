@@ -6,6 +6,5 @@ for line in sys.stdin:
 print(a)
 for i in range(len(a)-1,-1,-1):
 	b=b+a[i]
-#print(b)
 b=b.title()
 print(b)
